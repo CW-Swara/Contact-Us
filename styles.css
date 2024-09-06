@@ -180,3 +180,20 @@ span.hidden {
 .toast.hidden {
   transform: translateY(-400px);
 }
+@media screen and (max-width: 400px) {
+  .container {
+    width: 300px;
+  }
+
+  .name {
+    flex-wrap: wrap;
+  }
+
+  #query {
+    flex-wrap: wrap;
+  }
+
+  .toast {
+    width: 300px;
+  }
+}
