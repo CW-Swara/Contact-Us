@@ -150,6 +150,24 @@ span.hidden {
   border: 1px solid hsl(169, 82%, 27%);
 }
 
+@media screen and (max-width: 400px) {
+  .container {
+    width: 300px;
+  }
+
+  .name {
+    flex-wrap: wrap;
+  }
+
+  #query {
+    flex-wrap: wrap;
+  }
+
+  .toast {
+    width: 300px;
+  }
+}
+
 .toast {
   position: fixed;
   top: 30px;
@@ -180,20 +198,4 @@ span.hidden {
 .toast.hidden {
   transform: translateY(-400px);
 }
-@media screen and (max-width: 400px) {
-  .container {
-    width: 300px;
-  }
 
-  .name {
-    flex-wrap: wrap;
-  }
-
-  #query {
-    flex-wrap: wrap;
-  }
-
-  .toast {
-    width: 300px;
-  }
-}
